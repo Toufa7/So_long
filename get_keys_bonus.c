@@ -12,7 +12,7 @@
 
 #include "so_long.h"
 
-int	get_keys(int key, t_mlx *mlx)
+int	get_keys_bonus(int key, t_mlx *mlx)
 {
 	if (key == 124 || key == 2)
 	{
@@ -36,6 +36,6 @@ int	get_keys(int key, t_mlx *mlx)
 	}
 	if (key == 53)
 		exit_window(mlx);
-	putting_moves_into_term(mlx);
+	putting_moves_into_windows_bonus(mlx);
 	return (key);
 }

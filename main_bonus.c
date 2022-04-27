@@ -40,7 +40,6 @@ void	xpm_images(void)
 	img.apple_u = "./sprites/appel_up.xpm";
 	img.bkgd = "./sprites/background.xpm";
 	img.cave = "./sprites/cave.xpm";
-	img.enemy = "./sprites/enemy_right.xpm";
 }
 
 void	*window(t_mlx *mlx)
@@ -86,10 +85,13 @@ int	main(int ac, char *av[])
 		mlx.app = malloc (mlx.appels * sizeof(t_appel));
 		get_player_positions(&mlx);
 		map_filling(&mlx);
-		mlx_key_hook(mlx.win, get_keys, &mlx);
+		mlx_key_hook(mlx.win, get_keys_bonus, &mlx);
 		mlx.app_num = mlx.appels;
+		mlx_loop_hook(mlx.mlx, &animation, &mlx);
 		mlx_hook(mlx.win, 17, 0, close_window, &mlx);
 		mlx_loop(mlx.mlx);
+		free(mlx.app);
+		while (1);
 	}
 	else
 		ft_putstr("Please provide So_long program & valid map only");

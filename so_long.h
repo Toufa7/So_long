@@ -99,7 +99,7 @@ void	move_left(t_mlx	*mlx);
 void	move_right(t_mlx	*mlx);
 void	move_down(t_mlx	*mlx);
 void	move_up(t_mlx	*mlx);
-void	putting_moves_into_windows(t_mlx *mlx);
+void	putting_moves_into_windows_bonus(t_mlx *mlx);
 void	check_and_exit(t_mlx *mlx);
 void	checking_ber(char	*av[]);
 void	exit_window(t_mlx	*mlx);
@@ -107,5 +107,8 @@ void	print_error(const char *s);
 int		get_keys(int key, t_mlx *mlx);
 int		close_window(t_mlx *mlx);
 int		animation(t_mlx *mlx);
+void	putting_moves_into_term(t_mlx *mlx);
+int		get_keys_bonus(int key, t_mlx *mlx);
+void	get_appels_positions_bonus(t_mlx *mlx);
 
 #endif 

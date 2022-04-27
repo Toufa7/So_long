@@ -1,41 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_keys.c                                         :+:      :+:    :+:   */
+/*   get_player_positions.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: otoufah <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/24 01:02:13 by otoufah           #+#    #+#             */
-/*   Updated: 2022/04/24 01:02:14 by otoufah          ###   ########.fr       */
+/*   Created: 2022/04/21 01:29:25 by otoufah           #+#    #+#             */
+/*   Updated: 2022/04/22 17:05:31 by otoufah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "so_long.h"
 
-int	get_keys(int key, t_mlx *mlx)
+void	get_appels_positions_bonus(t_mlx *mlx)
 {
-	if (key == 124 || key == 2)
+	int	i;
+	int	j;
+	int	k;
+
+	i = 0;
+	j = 0;
+	k = 0;
+	while (mlx->map[i])
 	{
-		move_right(mlx);
-		check_and_exit(mlx);
+		j = 0;
+		while (mlx->map[i][j])
+		{
+			if (mlx->map[i][j] == 'C')
+			{
+				mlx->app[k].x = j;
+				mlx->app[k].y = i;
+				k++;
+			}
+			j++;
+		}
+		i++;
 	}
-	if (key == 123 || key == 0)
-	{
-		move_left(mlx);
-		check_and_exit(mlx);
-	}
-	if (key == 126 || key == 13)
-	{
-		move_up(mlx);
-		check_and_exit(mlx);
-	}
-	if (key == 125 || key == 1)
-	{
-		move_down(mlx);
-		check_and_exit(mlx);
-	}
-	if (key == 53)
-		exit_window(mlx);
-	putting_moves_into_term(mlx);
-	return (key);
 }

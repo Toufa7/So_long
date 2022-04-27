@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   putting_moves_into_windows.c                       :+:      :+:    :+:   */
+/*   putting_moves_into_term.c                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: otoufah <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -12,12 +12,10 @@
 
 #include "so_long.h"
 
-void	putting_moves_into_windows(t_mlx *mlx)
+void	putting_moves_into_term(t_mlx *mlx)
 {
 	char	*nbr;
 
 	nbr = ft_itoa(mlx->nbr);
-	mlx_put_image_to_window(mlx->mlx, mlx->win, x_img.box, 0, 0);
-	mlx_string_put(mlx->mlx, mlx->win, 25, 19, 249, nbr);
 	ft_putstr(nbr);
 }

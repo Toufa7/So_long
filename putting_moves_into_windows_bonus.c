@@ -1,41 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_keys.c                                         :+:      :+:    :+:   */
+/*   putting_moves_into_windows.c                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: otoufah <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/24 01:02:13 by otoufah           #+#    #+#             */
-/*   Updated: 2022/04/24 01:02:14 by otoufah          ###   ########.fr       */
+/*   Created: 2022/04/22 16:13:05 by otoufah           #+#    #+#             */
+/*   Updated: 2022/04/22 16:13:07 by otoufah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "so_long.h"
 
-int	get_keys(int key, t_mlx *mlx)
+void	putting_moves_into_windows_bonus(t_mlx *mlx)
 {
-	if (key == 124 || key == 2)
-	{
-		move_right(mlx);
-		check_and_exit(mlx);
-	}
-	if (key == 123 || key == 0)
-	{
-		move_left(mlx);
-		check_and_exit(mlx);
-	}
-	if (key == 126 || key == 13)
-	{
-		move_up(mlx);
-		check_and_exit(mlx);
-	}
-	if (key == 125 || key == 1)
-	{
-		move_down(mlx);
-		check_and_exit(mlx);
-	}
-	if (key == 53)
-		exit_window(mlx);
-	putting_moves_into_term(mlx);
-	return (key);
+	char	*nbr;
+
+	nbr = ft_itoa(mlx->nbr);
+	mlx_put_image_to_window(mlx->mlx, mlx->win, x_img.box, 0, 0);
+	mlx_string_put(mlx->mlx, mlx->win, 25, 19, 249, nbr);
+	ft_putstr(nbr);
 }
