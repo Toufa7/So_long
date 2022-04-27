@@ -93,7 +93,7 @@ $(BONUS) : $(OBJECTS_BONUS)
 			$(CC) $(OBJECTS_BONUS) $(CFLAGS) $(MLX_FLAGS) main_bonus.c -o $(BONUS)
 
 clean :
-			$(RM)	$(OBJECTS)
+			$(RM)	$(OBJECTS) $(OBJECTS_BONUS)
 	
 fclean : clean
 			$(RM) $(NAME) $(BONUS)
