@@ -50,5 +50,6 @@ int	checking_components(char *map)
 			return (1);
 		i++;
 	}
+	free (map);
 	return (0);
 }

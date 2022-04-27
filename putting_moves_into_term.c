@@ -18,4 +18,5 @@ void	putting_moves_into_term(t_mlx *mlx)
 
 	nbr = ft_itoa(mlx->nbr);
 	ft_putstr(nbr);
+	free (nbr);
 }

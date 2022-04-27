@@ -27,7 +27,9 @@ char	*map_reading(int fd)
 	while (map)
 	{
 		joining = ft_strjoin(joining, map);
+		free(map);
 		map = get_next_line(fd);
 	}
+	free (map);
 	return (joining);
 }

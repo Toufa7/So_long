@@ -76,7 +76,7 @@ FUNCTIONS_BONUS = 	gnl_so_long/gnl_so_long.c\
 					get_appels_positions_bonus.c\
 
 
-OBJECTS =	$(FUNCTIONS:.c=.o)
+OBJECTS = $(FUNCTIONS:.c=.o)
 
 OBJECTS_BONUS =	$(FUNCTIONS_BONUS:.c=.o)
 

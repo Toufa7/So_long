@@ -20,7 +20,7 @@
 
 void	ft_putstr(char *s);
 char	*ft_itoa(int n);
-char	**ft_split(char const *s, char c);
+char	**ft_split(char *s, char c);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlen(const char *s);
 int		ft_strcmp(const char *s1, const char *s2);

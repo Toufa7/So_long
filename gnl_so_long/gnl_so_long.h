@@ -18,7 +18,7 @@
 # include <fcntl.h>
 # include <stdio.h>
 
-# define BUFFER_SIZE 1
+# define BUFFER_SIZE 10
 
 size_t	gt_strlen(char *str);
 size_t	ft_find_len(char *str, char what);

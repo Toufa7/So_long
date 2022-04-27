@@ -1,9 +1,38 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/otoufah/So_long'
+gcc -Wall -Werror -Wextra   -c -o gnl_so_long/gnl_so_long.o gnl_so_long/gnl_so_long.c
+ 
+gcc -Wall -Werror -Wextra   -c -o gnl_so_long/gnl_so_long_utils.o gnl_so_long/gnl_so_long_utils.c
+gcc -Wall -Werror -Wextra   -c -o libft/ft_split.o libft/ft_split.c
+gcc -Wall -Werror -Wextra   -c -o libft/ft_strlcpy.o libft/ft_strlcpy.c
+gcc -Wall -Werror -Wextra   -c -o libft/ft_strlen.o libft/ft_strlen.c
+gcc -Wall -Werror -Wextra   -c -o libft/ft_itoa.o libft/ft_itoa.c
+gcc -Wall -Werror -Wextra   -c -o libft/ft_putstr.o libft/ft_putstr.c
+gcc -Wall -Werror -Wextra   -c -o libft/ft_strcmp.o libft/ft_strcmp.c
+ 
+gcc -Wall -Werror -Wextra   -c -o map_filling.o map_filling.c
+gcc -Wall -Werror -Wextra   -c -o get_player_positions.o get_player_positions.c
+gcc -Wall -Werror -Wextra   -c -o nbr_of_appels.o nbr_of_appels.c
+gcc -Wall -Werror -Wextra   -c -o map_checking/checking_bottom.o map_checking/checking_bottom.c
+gcc -Wall -Werror -Wextra   -c -o map_checking/checking_componenets.o map_checking/checking_componenets.c
+gcc -Wall -Werror -Wextra   -c -o map_checking/checking_left.o map_checking/checking_left.c
+gcc -Wall -Werror -Wextra   -c -o map_checking/checking_right.o map_checking/checking_right.c
+gcc -Wall -Werror -Wextra   -c -o map_checking/checking_top.o map_checking/checking_top.c
+gcc -Wall -Werror -Wextra   -c -o map_checking/final_check.o map_checking/final_check.c
+gcc -Wall -Werror -Wextra   -c -o map_checking/height_width.o map_checking/height_width.c
+gcc -Wall -Werror -Wextra   -c -o map_checking/map_reading.o map_checking/map_reading.c
+gcc -Wall -Werror -Wextra   -c -o moves_down.o moves_down.c
+gcc -Wall -Werror -Wextra   -c -o moves_left.o moves_left.c
+gcc -Wall -Werror -Wextra   -c -o moves_right.o moves_right.c
+gcc -Wall -Werror -Wextra   -c -o moves_up.o moves_up.c
 gcc -Wall -Werror -Wextra   -c -o putting_moves_into_term.o putting_moves_into_term.c
- 
+gcc -Wall -Werror -Wextra   -c -o check_and_exit.o check_and_exit.c
+gcc -Wall -Werror -Wextra   -c -o checking_ber.o checking_ber.c
+gcc -Wall -Werror -Wextra   -c -o destroy_window.o destroy_window.c
+gcc -Wall -Werror -Wextra   -c -o print_error.o print_error.c
 gcc -Wall -Werror -Wextra   -c -o get_keys.o get_keys.c
- 
+gcc -Wall -Werror -Wextra   -c -o close_window.o close_window.c
+gcc -Wall -Werror -Wextra   -c -o appels_animation.o appels_animation.c
 gcc gnl_so_long/gnl_so_long.o gnl_so_long/gnl_so_long_utils.o libft/ft_split.o libft/ft_strlcpy.o libft/ft_strlen.o libft/ft_itoa.o libft/ft_putstr.o libft/ft_strcmp.o map_filling.o get_player_positions.o nbr_of_appels.o map_checking/checking_bottom.o map_checking/checking_componenets.o map_checking/checking_left.o map_checking/checking_right.o map_checking/checking_top.o map_checking/final_check.o map_checking/height_width.o map_checking/map_reading.o moves_down.o moves_left.o moves_right.o moves_up.o putting_moves_into_term.o check_and_exit.o checking_ber.o destroy_window.o print_error.o get_keys.o close_window.o appels_animation.o -Wall -Werror -Wextra -lmlx -framework OpenGL -framework AppKit main.c -o so_long
 make: Leaving directory `/Users/otoufah/So_long'
  

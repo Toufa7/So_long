@@ -6,11 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
-make: *** No rule to make target `putting_moves_into_term.o', needed by `so_long'.  Stop.
 
-
-# Make data base, printed on Wed Apr 27 16:08:41 2022
+# Make data base, printed on Wed Apr 27 19:59:34 2022
 
 # Variables
 
@@ -31,7 +28,6 @@ VSCODE_LOG_NATIVE = false
 # makefile
 CURDIR := /Users/otoufah/So_long
 # makefile
- 
 SHELL = /bin/sh
 # makefile (from `Makefile', line 9)
 RM = rm -rf
@@ -48,11 +44,11 @@ VSCODE_VERBOSE_LOGGING = true
 # makefile (from `Makefile', line 3)
 BONUS = so_long_bonus
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/zz/zyxvpxvq6csfxvn_n0000jg00004br/T/vscode-ipc-9110879a-6604-4160-801c-92efe5f7674f.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/zz/zyxvpxvq6csfxvn_n0000jg00004br/T/vscode-ipc-8c5bce95-8899-45dc-a8a9-4029e4498e40.sock
 # environment
 VSCODE_CWD = /
 # environment
-Apple_PubSub_Socket_Render = /private/tmp/com.apple.launchd.eAz9SlhzOG/Render
+Apple_PubSub_Socket_Render = /private/tmp/com.apple.launchd.TDYfhPttGb/Render
 # environment
 PATH = /Users/otoufah/goinfre/otoufah/.brew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/goinfre/otoufah/miniconda3/condabin
 # environment
@@ -66,7 +62,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.YlFGY8hy03/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.jsFZC7oBIv/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -156,7 +152,7 @@ PAGER = less
 # environment
 LC_ALL = C
 # environment
-SECURITYSESSIONID = 186a9
+SECURITYSESSIONID = 186a7
 # automatic
 ^F = $(notdir $^)
 # default
@@ -170,7 +166,7 @@ OBJECTS = $(FUNCTIONS:.c=.o)
 # environment
 LANG = C
 # environment
-VSCODE_PID = 47282
+VSCODE_PID = 2666
 # variable set hash-table stats:
 # Load=78/1024=8%, Rehash=0, Collisions=1/110=1%
 
@@ -180,9 +176,9 @@ VSCODE_PID = 47282
 
 # Directories
 
-# . (device 16777227, inode 3830281): 49 files, no impossibilities.
+# . (device 16777227, inode 3830281): 50 files, no impossibilities.
 
-# 49 files, no impossibilities in 1 directories.
+# 50 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -193,7 +189,7 @@ VSCODE_PID = 47282
 # Not a target:
 map_filling.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -210,7 +206,7 @@ all: so_long
 # Not a target:
 libft/ft_itoa.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:07
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -219,7 +215,7 @@ libft/ft_itoa.o:
 # Not a target:
 libft/ft_strlen.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:07
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -228,7 +224,7 @@ libft/ft_strlen.o:
 # Not a target:
 map_checking/checking_top.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -249,7 +245,7 @@ putting_moves_into_windows_bonus.o:
 # Not a target:
 libft/ft_split.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:07
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -258,7 +254,7 @@ libft/ft_split.o:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:23
+#  Last modified 2022-04-27 17:27:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -273,7 +269,10 @@ get_appels_positions_bonus.o:
 # Not a target:
 libft/ft_putstr.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:07
+ 
+make: *** No rule to make target `putting_moves_into_term.o', needed by `so_long'.  Stop.
+
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -282,7 +281,7 @@ libft/ft_putstr.o:
 # Not a target:
 moves_right.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -308,7 +307,7 @@ bonus: so_long_bonus
 # Not a target:
 map_checking/checking_right.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -328,11 +327,10 @@ print_error.o:
 #  Modification time never checked.
 #  File has not been updated.
 
- 
 # Not a target:
 map_checking/checking_bottom.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -361,7 +359,7 @@ so_long_bonus: gnl_so_long/gnl_so_long.o gnl_so_long/gnl_so_long_utils.o libft/f
 # Not a target:
 nbr_of_appels.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -376,7 +374,7 @@ nbr_of_appels.o:
 # Not a target:
 moves_up.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:30
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -385,7 +383,7 @@ moves_up.o:
 # Not a target:
 gnl_so_long/gnl_so_long_utils.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:28
+#  Last modified 2022-04-27 18:51:07
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -421,7 +419,7 @@ get_keys.o:
 # Not a target:
 libft/ft_strlcpy.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:07
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -436,7 +434,7 @@ destroy_window.o:
 # Not a target:
 libft/ft_strcmp.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:07
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -445,7 +443,7 @@ libft/ft_strcmp.o:
 # Not a target:
 map_checking/height_width.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -454,7 +452,7 @@ map_checking/height_width.o:
 # Not a target:
 moves_left.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -463,7 +461,7 @@ moves_left.o:
 # Not a target:
 map_checking/checking_componenets.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -472,7 +470,7 @@ map_checking/checking_componenets.o:
 # Not a target:
 get_player_positions.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -491,7 +489,7 @@ so_long: gnl_so_long/gnl_so_long.o gnl_so_long/gnl_so_long_utils.o libft/ft_spli
 # Not a target:
 map_checking/final_check.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -500,7 +498,7 @@ map_checking/final_check.o:
 # Not a target:
 moves_down.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -509,7 +507,7 @@ moves_down.o:
 # Not a target:
 map_checking/checking_left.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -518,7 +516,7 @@ map_checking/checking_left.o:
 # Not a target:
 map_checking/map_reading.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:29
+#  Last modified 2022-04-27 18:51:08
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -527,7 +525,7 @@ map_checking/map_reading.o:
 # Not a target:
 gnl_so_long/gnl_so_long.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-27 16:08:28
+#  Last modified 2022-04-27 18:51:07
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -535,6 +533,7 @@ gnl_so_long/gnl_so_long.o:
 
 # Not a target:
 checking_ber.o:
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -552,6 +551,6 @@ checking_ber.o:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed Apr 27 16:08:41 2022
+# Finished Make data base on Wed Apr 27 19:59:34 2022
 
  

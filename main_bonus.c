@@ -91,7 +91,6 @@ int	main(int ac, char *av[])
 		mlx_hook(mlx.win, 17, 0, close_window, &mlx);
 		mlx_loop(mlx.mlx);
 		free(mlx.app);
-		while (1);
 	}
 	else
 		ft_putstr("Please provide So_long program & valid map only");
