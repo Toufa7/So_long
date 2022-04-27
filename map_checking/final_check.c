@@ -22,7 +22,7 @@ int	final_check(char *argv[])
 	filde = open(argv[1], O_RDWR, 0777);
 	if (fildes == -1 || filde == -1)
 	{
-		printf("Error\n");
+		perror("Error\n");
 		exit(EXIT_FAILURE);
 	}
 	twd = ft_split(map_reading(fildes), '\n');

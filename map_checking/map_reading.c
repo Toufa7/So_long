@@ -19,7 +19,7 @@ char	*map_reading(int fd)
 
 	if (fd == -1)
 	{
-		printf("Error\n");
+		perror("Error\n");
 		exit(EXIT_FAILURE);
 	}
 	joining = NULL;

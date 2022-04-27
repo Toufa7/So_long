@@ -75,14 +75,3 @@ char	*get_next_line(int fd)
 	saved = keeping_what_after_newline(saved);
 	return (line);
 }
-
-// int main()
-// {
-// 	int i = 0;
-// 	int fildes = open("/Users/otoufah/Desktop/So_long/maps/map.ber", O_RDONLY);
-// 	while (i < 5)
-// 	{
-// 		printf("%s",get_next_line(fildes));
-// 		i++;
-// 	}
-// }

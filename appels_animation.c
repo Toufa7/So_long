@@ -25,7 +25,6 @@ void	stop_animation(t_mlx *mlx, int k)
 {
 	if (mlx->px == mlx->app[k].x && mlx->app[k].y == mlx->py)
 	{
-		printf("This is x -> %d this is y %d\n", mlx->px, mlx->py);
 		if (mlx->px + 1 && mlx->py == mlx->py)
 		{
 			mlx_put_image_to_window(mlx->mlx, mlx->win, x_img.snk_r,
