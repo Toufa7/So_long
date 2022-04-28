@@ -3,7 +3,7 @@
 so long a 1337's project thats will help us improve our skills in the following areas: window management, event handling, colors, textures, and so forth, using our school graphical library: the MiniLibX!
 
 
-<img src="https://s7.gifyu.com/images/Screen-Recording-2022-04-28-at-8.12.56-PM.gif" width="1000" height="400" />
+<img src="https://s7.gifyu.com/images/Screen-Recording-2022-04-28-at-8.12.56-PM.gif" width="900" height="350" />
 
 
 
